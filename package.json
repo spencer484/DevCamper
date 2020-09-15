@@ -1,0 +1,27 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "Create the backend for a bootcamp directory website. The frontend/UI will be created by another team (future course). The html/css template has been created and can be used as a reference for functionality. All of the functionality below needs to be fully implmented in this project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencer484/DevCamper.git"
+  },
+  "author": "Spencer Lazzar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencer484/DevCamper/issues"
+  },
+  "homepage": "https://github.com/spencer484/DevCamper#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
